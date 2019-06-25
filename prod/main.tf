@@ -15,6 +15,6 @@ variable "person" {}
 resource "null_resource" "georgiman" {
 
   provisioner "local-exec" {
-    command = "echo hello ${var.person}"
+    command = "echo bye ${var.person}"
   }
 }
