@@ -9,7 +9,6 @@ terraform {
   }
 }
 
-variable "person" {}
 
 
 resource "null_resource" "georgiman" {
